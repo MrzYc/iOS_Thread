@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2815AF872738F2D600BF3505 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2815AF862738F2D600BF3505 /* GCDViewController.m */; };
+		2815AFA02739595B00BF3505 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2815AF9F2739595B00BF3505 /* LockViewController.m */; };
+		2815AFA42739598A00BF3505 /* NSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2815AFA32739598A00BF3505 /* NSOperationController.m */; };
 		288C887827312637002E6447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288C887727312637002E6447 /* AppDelegate.m */; };
 		288C887B27312637002E6447 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288C887A27312637002E6447 /* SceneDelegate.m */; };
 		288C887E27312637002E6447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288C887D27312637002E6447 /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2815AF852738F2D600BF3505 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		2815AF862738F2D600BF3505 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		2815AF9E2739595B00BF3505 /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		2815AF9F2739595B00BF3505 /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		2815AFA22739598A00BF3505 /* NSOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationController.h; sourceTree = "<group>"; };
+		2815AFA32739598A00BF3505 /* NSOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationController.m; sourceTree = "<group>"; };
 		288C887327312637002E6447 /* iOS_Thread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Thread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288C887627312637002E6447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		288C887727312637002E6447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +76,12 @@
 				288C887A27312637002E6447 /* SceneDelegate.m */,
 				288C887C27312637002E6447 /* ViewController.h */,
 				288C887D27312637002E6447 /* ViewController.m */,
+				2815AF852738F2D600BF3505 /* GCDViewController.h */,
+				2815AF862738F2D600BF3505 /* GCDViewController.m */,
+				2815AFA22739598A00BF3505 /* NSOperationController.h */,
+				2815AFA32739598A00BF3505 /* NSOperationController.m */,
+				2815AF9E2739595B00BF3505 /* LockViewController.h */,
+				2815AF9F2739595B00BF3505 /* LockViewController.m */,
 				288C887F27312637002E6447 /* Main.storyboard */,
 				288C88822731263A002E6447 /* Assets.xcassets */,
 				288C88842731263A002E6447 /* LaunchScreen.storyboard */,
@@ -146,9 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				288C887E27312637002E6447 /* ViewController.m in Sources */,
+				2815AFA02739595B00BF3505 /* LockViewController.m in Sources */,
 				288C887827312637002E6447 /* AppDelegate.m in Sources */,
 				288C88892731263A002E6447 /* main.m in Sources */,
+				2815AF872738F2D600BF3505 /* GCDViewController.m in Sources */,
 				288C887B27312637002E6447 /* SceneDelegate.m in Sources */,
+				2815AFA42739598A00BF3505 /* NSOperationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
